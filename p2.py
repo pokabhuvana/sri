@@ -479,8 +479,6 @@ plt.xlabel('no.of clusters')
 plt.ylabel('WCSS')
 plt.show()
 
-!pip install Kneed
-
 ## Getting Optimal K value
 from kneed import KneeLocator
 
