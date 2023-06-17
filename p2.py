@@ -768,8 +768,6 @@ loaded_model = pickle.load(open(filename, 'rb')) # this line will load data to f
 result = loaded_model.score(X_test, y_test)
 print(result,'% Acuuracy')
 
-# installing streamlit library
-! pip install streamlit
 
 from PIL import Image
 import pandas as pd
